@@ -49,7 +49,7 @@ class App(QWidget,Ui_Form):
                     logfile.write(f"O arquivo {file} Apresentou o erro: \n \
                                   {erro} \n\n")
                     self.edittext_message.setStyleSheet("font-size: 20px; color: red;")
-                    self.edittext_message.setText(f'A erro na música: {file}')
+                    self.edittext_message.setText(f'Erro na música: {file}')
 
 
             
