@@ -1,16 +1,17 @@
 QWidget#Form{
-background-color: qlineargradient(spread:pad, x1:0.492, y1:0, x2:0.487, y2:1, stop:0 rgba(53, 132, 228, 255), stop:1 rgba(26, 95, 180, 255));
+background-color: qlineargradient(spread:pad, x1:0.481, y1:0.0170455, x2:0.471, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(154, 153, 150, 255));
 }
 QLabel{
 font-weight: bold;
 font-size: 20px;
+color: black;
 }
 QPushButton{
 background-color: white;
-color: rgb(28, 113, 216);
+color: black;
 text-transform: uppercase;
 border: 1 px solid gray;
-padding: 5px;
+padding: 8px;
 border-radius: 7px;
 }
 QPushButton:hover{
@@ -20,4 +21,8 @@ QPushButton:pressed{
 background-color: rgb(28, 113, 216);
 color: white;
 border: 2px solid gray;
+}
+QPushButton:disabled{
+color: white;
+background-color: gray
 }

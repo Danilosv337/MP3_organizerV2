@@ -2,7 +2,7 @@ from os import walk
 import eyed3
 
 
-def teste_walk(way: str) -> list:
+def get_files(way: str) -> list:
     lista = []
     for root,_, files in walk(way):
         if files == []:
